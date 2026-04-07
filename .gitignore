@@ -1,0 +1,66 @@
+# =========================
+# DEPENDÊNCIAS
+# =========================
+node_modules/
+*/node_modules/
+
+# =========================
+# ENV (SENSÍVEL)
+# =========================
+.env
+.env.*
+*/.env
+*/.env.*
+
+# =========================
+# BUILD / OUTPUT
+# =========================
+dist/
+build/
+*/dist/
+*/build/
+
+# =========================
+# LOGS
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# SISTEMA
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# EDITORES
+# =========================
+.vscode/
+!.vscode/extensions.json
+.idea/
+
+# =========================
+# CACHE
+# =========================
+.cache/
+.next/
+.nuxt/
+
+# =========================
+# FRONTEND ESPECÍFICO
+# =========================
+frontend/node_modules/
+frontend/build/
+
+# =========================
+# BACKEND ESPECÍFICO
+# =========================
+backend/node_modules/
+
+# =========================
+# OUTROS
+# =========================
+coverage/
